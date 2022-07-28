@@ -1,0 +1,7 @@
+Load rstudio and then load R manually on MSI to force rstudio to use the latest version of R.
+
+spyder
+	-w WORKING_DIR
+	-p PROJECT
+
+

@@ -1,0 +1,35 @@
+submit_scripts/:
+  Scripts to submit jobs. These allow for batched applications of the pipeline.
+
+input_scripts/:
+  Primary scripts for this pipeline. Each script is a modular unit of the pipeline.
+
+code/:
+  Other code for this pipeline. These can be secondary scripts used by the primary pipeline scripts or separate scripts that were created along the way.
+
+docs/:
+  Pipeline specific files that are used by primary or other scripts.
+
+../work_dir/PIPELINE_NAME/:
+  Cache dir for this pipeline. All temporary files are directed here.
+
+../log_files/:
+  All log files are directed here.
+
+../subjects_list/COHORT_NAME/:
+  List of all subjects to process. These can be list of batches of IDs or one list with all IDs.
+
+../General_Scripts/:
+  Scripts used by all pipelines.
+  ./load_defaults.sh:
+    Loads default variables into your session. This includes functions and directory names.
+    
+  ./default_funcs.sh:
+    Loads functions used by various scripts and other general use functions.
+    Specially "exist_list."
+    
+  ./load_dirs.sh:
+    Loads important variables for directories and endpoints.
+    
+  ./module_check_funcs.sh:
+    Functions to test if modules are loaded before running.

@@ -1,0 +1,6 @@
+module load textadept
+module load python3
+
+sleep 5
+
+spyder -w . & 

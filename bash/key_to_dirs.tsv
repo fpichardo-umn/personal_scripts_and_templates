@@ -1,0 +1,15 @@
+key	es	mf	hcp	ukbb
+main_dir	${ngdr_ref_mctfr_bid_dir}	${ngdr_ref_mctfr_bid_dir}	${msi_ssw_dir}	${msi_smm_dir}
+main_fs	FS-5.3/normalizations/norm_ofc/	FS-5.3/normalizations/norm_ofc/	FS-5.3.0	FS-6.0
+anat	anat-FS-5.3	anat-FS-5.3	anat-FS-5.3.0	na
+autoptx	autoPtx-0.1	autoPtx-0.1	autoPtx-0.1.1	autoPtx-0.1.1
+bedpostx	bedpostX-6.0.0	bedpostX-6.0.0	bedpostX	bedpostX-6.0
+dti	DTI-1.0	DTI-1.0	DTI-1.0	DTI-ukb
+dtipreproc	DTI-preproc	DTI-preproc	na	na
+dtitk	DTI-Tk-2.3.1	DTI-Tk-2.3.1	DTI-TK-2.3.1	na
+fmriprep	fmriprep-1.1.8	fmriprep-1.1.8	na	na
+fmripreproc	fMRI-preproc	fMRI-preproc	na	na
+fs5	FS-5.3/normalizations/norm_ofc/	FS-5.3/normalizations/norm_ofc/	FS-5.3.0	na
+fs6	FS-6.0	FS-6.0	na	FS-6.0	
+fslfmri	fsl-fmri	fsl-fmri	na	na
+tracula	tracula-6.0.0	tracula-6.0.0	tracula	na
